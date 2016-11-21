@@ -2,66 +2,38 @@
 
 
 /*Block 1, 2 begin */
+
 .border {
-  border: 2px solid #ccc;
-  border-radius: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
 }
 
 .navbar {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
+
 .logo {
     background: #ccc;
     color: black;
     height: 50px;
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
 }
+
 .icon-bar {
-  background: #ccc;
+    background: #ccc;
 }
-.navbar-nav>li {
-  margin-top: 5px;
-}
+
 .navbar-nav>li>a:hover {
-  color: #037de0;
+    color: #037de0;
 }
+
 .navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
     color: grey;
 }
-
-.navbar-right {
-  margin-right: 0;
-}
-
-.navbar-toggle {
-  margin-left: 15px;
-}
-
-
 
 .logo div span {
     color: black;
     font-size: 16px;
     font-weight: bold;
-}
-
-
-.menu>ul>li {
-    display: inline-block;
-    margin-right: 1.5vw;
-}
-
-.menu>ul>li>a {
-    text-decoration: none;
-    color: grey;
-}
-
-.menu>ul>li>a:hover {
-    color: #3eace9;
 }
 
 .back-img {
@@ -83,23 +55,9 @@
     text-align: center;
 }
 
-.line>div {
-    overflow: hidden;
-    width: 10vw;
-    height: 10vh;
-    border: 1px solid blue;
-}
 
-.line {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.buttons-line {
-    background: #0073fa;
-}
 /* Make collapse nav width max with 991px*/
+
 @media (max-width: 991px) {
     .navbar-header {
         float: none;
@@ -109,14 +67,14 @@
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
     .navbar-collapse.collapse {
         display: none!important;
     }
     .navbar-nav {
-        float: right!important;
-        margin: 7.5px -15px;
+        float: left!important;
+        margin: 7.5px 15px;
     }
     .navbar-nav>li {
         float: none;
@@ -138,34 +96,59 @@
     }
 }
 
+
 /*Block 1, 2 end */
 
 
 /*Block 3, 4 begin */
-  /*please, paste you code here */
+
+
+/*please, paste you code here */
+
+
 /*Block 3, 4 end */
 
 
 /*Block 5 begin */
-  /*please, paste you code here */
+
+
+/*please, paste you code here */
+
+
 /*Block 5 end */
 
 
 /*Block 6 begin */
-  /*please, paste you code here */
+
+
+/*please, paste you code here */
+
+
 /*Block 6 begin */
 
 
 /*Block 7, 8 begin */
-  /*please, paste you code here */
+
+
+/*please, paste you code here */
+
+
 /*Block 7, 8 end */
 
 
 /*Block 9 begin */
-  /*please, paste you code here */
+
+
+/*please, paste you code here */
+
+
 /*Block 9 end */
 
 
 /*Block 10, 11 begin */
-  /*please, paste you code here */
+
+
+/*please, paste you code here */
+
+
 /*Block 10, 11 begin */
