@@ -2,8 +2,13 @@
 
 
 /*Block 1, 2 begin */
+.navbar {
+  margin-bottom: 0;
+}
+
 .logo {
     background: #ccc;
+    color: black;
     height: 10vh;
     display: flex;
     justify-content: center;
