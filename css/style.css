@@ -2,7 +2,76 @@
 
 
 /*Block 1, 2 begin */
-  /*please, paste you code here */
+.logo {
+    background: #ccc;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo div span {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu>ul>li {
+    display: inline-block;
+    margin-right: 1.5vw;
+}
+
+.menu>ul>li>a {
+    text-decoration: none;
+    color: grey;
+}
+
+.menu>ul>li>a:hover {
+    color: #3eace9;
+}
+
+.back-img {
+    background: gray;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.banner>p {
+    text-align: center;
+}
+
+.line>div {
+    overflow: hidden;
+    width: 10vw;
+    height: 10vh;
+    border: 1px solid blue;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.buttons-line {
+    background: #0073fa;
+}
+
 /*Block 1, 2 end */
 
 
