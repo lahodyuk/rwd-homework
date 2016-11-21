@@ -3,21 +3,45 @@
 
 /*Block 1, 2 begin */
 .border {
-  border: 2px solid black;
+  border: 2px solid #ccc;
+  border-radius: 10px;
 }
 
 .navbar {
   margin-bottom: 0;
 }
-
 .logo {
     background: #ccc;
     color: black;
-    height: 10vh;
-    display: flex;
+    height: 50px;
+    /*display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
 }
+.icon-bar {
+  background: #ccc;
+}
+.navbar-nav>li {
+  margin-top: 5px;
+}
+.navbar-nav>li>a:hover {
+  color: #037de0;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+.navbar-right {
+  margin-right: 0;
+}
+
+.navbar-toggle {
+  margin-left: 15px;
+}
+
+
 
 .logo div span {
     color: black;
@@ -25,11 +49,6 @@
     font-weight: bold;
 }
 
-.menu {
-    height: 10vh;
-    display: flex;
-    align-items: center;
-}
 
 .menu>ul>li {
     display: inline-block;
@@ -79,6 +98,44 @@
 
 .buttons-line {
     background: #0073fa;
+}
+/* Make collapse nav width max with 991px*/
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: right!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
 }
 
 /*Block 1, 2 end */
