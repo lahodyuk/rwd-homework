@@ -17,7 +17,43 @@
 
 
 /*Block 5 begin */
-  /*please, paste you code here */
+.task5
+{
+	background-color: #ffffff;
+}
+.task5 h1
+{
+	text-align: center;
+	color:#000000;
+	margin-bottom: 60px;
+}
+
+.task5 .blueTitle
+{
+	color: #1FA9E6;
+}
+
+.task5 .content img
+{
+	max-width: 100%;
+	margin-top: 10px;
+    height: auto;
+		width: auto;
+}
+
+.task5 .content h4
+{
+	color: #1FA9E6;
+}
+
+.task5 .content
+{
+	color:#000000;
+}
+.task5 .row{
+	margin-bottom: 100px;
+	height:auto;
+}
 /*Block 5 end */
 
 
@@ -117,5 +153,7 @@
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-
+	.task5 .row{
+		margin: 0;
+	}
 }
