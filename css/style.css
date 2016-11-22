@@ -1,3 +1,8 @@
+.blue{
+	color: #16b9e8;
+}
+
+
 /*Please, write you styles in correct block*/
 
 
@@ -150,8 +155,60 @@
 
 /*Block 7, 8 begin */
 
+.seven{
+	/*background: #ef9090;*/
+	/*height: 100px;*/
+}
 
-/*please, paste you code here */
+.post-image-holder{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*position: relative;*/
+}
+
+.horizontal-post{
+	min-height: 150px;
+	height: auto;
+	overflow: visible;
+	margin-bottom: 15px;
+}
+
+.post-image-holder img{
+    max-width: 100%;
+    height: auto;
+    width: auto; /* ie8 */
+}
+
+
+.post-text-holder{
+	/*position: relative;*/
+	min-height: 150px;
+	height: auto;
+	/*background: #ef9090;*/
+	/*overflow: auto;*/
+
+}
+
+.post-text{
+	font-size: 16px;
+	/*position: absolute;*/
+	/*left: -1rem;*/
+	padding-right: 2rem;
+	min-height: 150px;
+}
+
+.eight{
+	/*background: yellow;*/
+	/*height: 100px;*/
+	/*margin: auto;*/
+	/*float: none;*/
+}
+
+.widget{
+	background: #ccc;
+	height: 600px;
+	width: 60%;
+}
 
 
 /*Block 7, 8 end */
@@ -168,8 +225,33 @@
 
 /*Block 10, 11 begin */
 
-
-/*please, paste you code here */
-
+  /*please, paste you code here */
 
 /*Block 10, 11 begin */
+
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.widget{
+		width: 100%;
+	}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
