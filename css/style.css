@@ -91,7 +91,28 @@
 
 
 /*Block 10, 11 begin */
-  /*please, paste you code here */
+  .container, .btn {
+		background: #131313;
+		color: white;
+	}
+
+	/*.container {
+		padding: 30px
+	}*/
+
+
+
+	.footer-title {
+		text-align: center;
+
+	}
+
+	.legelese {
+		text-align: center;
+		background: #262626;
+		color: white;
+	}
+
 /*Block 10, 11 begin */
 
 
