@@ -3,13 +3,27 @@
 
 /*Block 1, 2 begin */
 
-.border {
-    border: 2px solid #ccc;
-    border-radius: 10px;
+.top-nav {
+    background: white;
+    border: none;
+    margin-bottom: 0;
+    padding-left: 3.7vw;
+    padding-right: 3.7vw;
 }
 
-.navbar {
-    background: white;
+.navbar .navbar-default {
+    background: white: ;
+    border: none;
+    position: fixed;
+    z-index: 1;
+}
+
+.collapse .navbar-right>li>a {
+    color: grey;
+}
+
+.collapse .navbar-right>li>a:hover {
+    color: #429ef4;
 }
 
 .logo {
@@ -18,27 +32,9 @@
     height: 50px;
 }
 
-.icon-bar {
-    background: #ccc;
-}
-
-.navbar-nav>li>a:hover {
-    color: #037de0;
-}
-
-.navbar-nav>li>a {
-    color: grey;
-}
-
-.logo div span {
-    color: black;
-    font-size: 16px;
-    font-weight: bold;
-}
-
 .back-img {
     background: gray;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     align-items: center;
 }
@@ -58,7 +54,27 @@
 
 /* Make collapse nav width max with 991px*/
 
+@media (min-width: 768px) {
+    .container-fluid>.navbar-collapse {
+        margin-left: -15px;
+    }
+}
+
 @media (max-width: 991px) {
+    .collapse, .navbar-collapse {
+        position: absolute;
+        z-index: 1;
+        border: 1px solid blue;
+        width: 100%;
+        background: white;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .navbar-nav {
+        float: left!important;
+        margin: 7.5px -30px;
+    }
     .navbar-header {
         float: none;
     }
@@ -74,18 +90,23 @@
     }
     .navbar-nav {
         float: left!important;
-        margin: 7.5px 15px;
+        margin: 7.5px -30px;
     }
     .navbar-nav>li {
         float: none;
     }
     .navbar-nav>li>a {
+        width: 100%;
         padding-top: 10px;
         padding-bottom: 10px;
+        margin-left: 15px;
     }
     .navbar-text {
         float: none;
         margin: 15px 0;
+    }
+    .collapse, .navbar-collapse {
+        margin-left: -15px;
     }
     /* since 3.1.0 */
     .navbar-collapse.collapse.in {
