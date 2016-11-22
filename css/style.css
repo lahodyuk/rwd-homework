@@ -1,5 +1,5 @@
 .blue{
-	color: #16b9e8;
+    color: #16b9e8;
 }
 
 
@@ -89,40 +89,40 @@
 
 .task5
 {
-	background-color: #ffffff;
+    background-color: #ffffff;
 }
 .task5 h1
 {
-	text-align: center;
-	color:#000000;
-	margin-bottom: 60px;
+    text-align: center;
+    color:#000000;
+    margin-bottom: 60px;
 }
 
 .task5 .blueTitle
 {
-	color: #1FA9E6;
+    color: #1FA9E6;
 }
 
 .task5 .content img
 {
-	max-width: 100%;
-	margin-top: 10px;
+    max-width: 100%;
+    margin-top: 10px;
     height: auto;
-		width: auto;
+        width: auto;
 }
 
 .task5 .content h4
 {
-	color: #1FA9E6;
+    color: #1FA9E6;
 }
 
 .task5 .content
 {
-	color:#000000;
+    color:#000000;
 }
 .task5 .row{
-	margin-bottom: 100px;
-	height:auto;
+    margin-bottom: 100px;
+    height:auto;
 }
 
 /*Block 5 end */
@@ -140,21 +140,21 @@
 /*Block 7, 8 begin */
 
 .seven{
-	/*background: #ef9090;*/
-	/*height: 100px;*/
+    /*background: #ef9090;*/
+    /*height: 100px;*/
 }
 
 .post-image-holder{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	/*position: relative;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*position: relative;*/
 }
 
 .horizontal-post{
-	min-height: 150px;
-	height: auto;
-	overflow: visible;
-	margin-bottom: 15px;
+    min-height: 150px;
+    height: auto;
+    overflow: visible;
+    margin-bottom: 15px;
 }
 
 .post-image-holder img{
@@ -165,33 +165,33 @@
 
 
 .post-text-holder{
-	/*position: relative;*/
-	min-height: 150px;
-	height: auto;
-	/*background: #ef9090;*/
-	/*overflow: auto;*/
+    /*position: relative;*/
+    min-height: 150px;
+    height: auto;
+    /*background: #ef9090;*/
+    /*overflow: auto;*/
 
 }
 
 .post-text{
-	font-size: 16px;
-	/*position: absolute;*/
-	/*left: -1rem;*/
-	padding-right: 2rem;
-	min-height: 150px;
+    font-size: 16px;
+    /*position: absolute;*/
+    /*left: -1rem;*/
+    padding-right: 2rem;
+    min-height: 150px;
 }
 
 .eight{
-	/*background: yellow;*/
-	/*height: 100px;*/
-	/*margin: auto;*/
-	/*float: none;*/
+    /*background: yellow;*/
+    /*height: 100px;*/
+    /*margin: auto;*/
+    /*float: none;*/
 }
 
 .widget{
-	background: #ccc;
-	height: 600px;
-	width: 60%;
+    background: #ccc;
+    height: 600px;
+    width: 60%;
 }
 
 /*Block 7, 8 end */
@@ -246,9 +246,9 @@
 }
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-	.widget{
-		width: 100%;
-	}
+    .widget{
+        width: 100%;
+    }
         .navbar-nav {
         /*float: left!important;*/
         /*margin: 7.5px -30px;*/
@@ -311,11 +311,11 @@
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-<<<<<<< HEAD
-	.task5 .row{
-		margin: 0;
-	}
-=======
+
+    .task5 .row{
+        margin: 0;
+    }
+
     .nav li {
     border-bottom: 1px solid #16b9e8;
     }
@@ -325,5 +325,5 @@
     .logo{
         margin-left: 0!important;
     }
->>>>>>> f410cda58df82509cf7025e018f1550f98889c9e
+
 }
