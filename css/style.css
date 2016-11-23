@@ -1,5 +1,5 @@
 .blue{
-	color: #16b9e8;
+    color: #16b9e8;
 }
 
 
@@ -7,42 +7,154 @@
 
 
 /*Block 1, 2 begin */
-  /*please, paste you code here */
+
+.top-nav {
+    background: white;
+    border: none;
+    margin-bottom: 0;
+    /*// padding-left: 3.7vw;*/
+    /*// padding-right: 3.7vw;*/
+}
+
+.navbar .navbar-default {
+    background: white;
+    border: none;
+    position: fixed;
+    z-index: 1;
+}
+
+.collapse .navbar-right>li>a {
+    color: grey;
+}
+
+.collapse .navbar-right>li>a:hover {
+    color: #429ef4;
+}
+
+.logo {
+    background: #ccc;
+    color: black;
+    height: 50px;
+    margin-left: 3.7vw!important;
+}
+
+.back-img {
+    background: gray;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.banner>p, .banner>h1 {
+    text-align: center;
+}
+
+.nav li {
+    /*border-bottom: 1px solid black;*/
+    /*background: red;*/
+}
+
+/* Make collapse nav width max with 991px*/
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+
 /*Block 1, 2 end */
 
 
 /*Block 3, 4 begin */
-  /*please, paste you code here */
+
+
+/*please, paste you code here */
+
+
 /*Block 3, 4 end */
 
 
 /*Block 5 begin */
-  /*please, paste you code here */
+
+.task5
+{
+    background-color: #ffffff;
+}
+.task5 h1
+{
+    text-align: center;
+    color:#000000;
+    margin-bottom: 60px;
+}
+
+.task5 .blueTitle
+{
+    color: #1FA9E6;
+}
+
+.task5 .content img
+{
+    max-width: 100%;
+    margin-top: 10px;
+    height: auto;
+        width: auto;
+}
+
+.task5 .content h4
+{
+    color: #1FA9E6;
+}
+
+.task5 .content
+{
+    color:#000000;
+}
+.task5 .row{
+    margin-bottom: 100px;
+    height:auto;
+}
+
 /*Block 5 end */
 
 
 /*Block 6 begin */
-  /*please, paste you code here */
+
+
+/*please, paste you code here */
+
+
 /*Block 6 begin */
 
 
 /*Block 7, 8 begin */
+
 .seven{
-	/*background: #ef9090;*/
-	/*height: 100px;*/
+    /*background: #ef9090;*/
+    /*height: 100px;*/
 }
 
 .post-image-holder{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	/*position: relative;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*position: relative;*/
 }
 
 .horizontal-post{
-	min-height: 150px;
-	height: auto;
-	overflow: visible;
-	margin-bottom: 15px;
+    min-height: 150px;
+    height: auto;
+    overflow: visible;
+    margin-bottom: 15px;
 }
 
 .post-image-holder img{
@@ -53,44 +165,49 @@
 
 
 .post-text-holder{
-	/*position: relative;*/
-	min-height: 150px;
-	height: auto;
-	/*background: #ef9090;*/
-	/*overflow: auto;*/
+    /*position: relative;*/
+    min-height: 150px;
+    height: auto;
+    /*background: #ef9090;*/
+    /*overflow: auto;*/
 
 }
 
 .post-text{
-	font-size: 16px;
-	/*position: absolute;*/
-	/*left: -1rem;*/
-	padding-right: 2rem;
-	min-height: 150px;
+    font-size: 16px;
+    /*position: absolute;*/
+    /*left: -1rem;*/
+    padding-right: 2rem;
+    min-height: 150px;
 }
 
 .eight{
-	/*background: yellow;*/
-	/*height: 100px;*/
-	/*margin: auto;*/
-	/*float: none;*/
+    /*background: yellow;*/
+    /*height: 100px;*/
+    /*margin: auto;*/
+    /*float: none;*/
 }
 
 .widget{
-	background: #ccc;
-	height: 600px;
-	width: 60%;
+    background: #ccc;
+    height: 600px;
+    width: 60%;
 }
 
 /*Block 7, 8 end */
 
 
 /*Block 9 begin */
-  /*please, paste you code here */
+
+
+/*please, paste you code here */
+
+
 /*Block 9 end */
 
 
 /*Block 10, 11 begin */
+
   .ten, .legelese, .btn {
 		background: #131313;
 		color: white;
@@ -111,11 +228,30 @@
 		color: white;
 	}
 
-
 /*Block 10, 11 begin */
 
 
 
+
+
+/*CUSTOM CSS FOR NAV BAR BEGIN*/
+@media (min-width: 768px) {
+    .container-fluid>.navbar-collapse {
+        margin-left: -15px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .collapse, .navbar-collapse {
+        position: absolute;
+        z-index: 1;
+        border: 1px solid blue;
+        width: 100%;
+        background: white;
+    }
+}
+/*CUSTOM CSS FOR NAV BAR END*/
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
@@ -130,16 +266,86 @@
 		padding-right: 70px;
 	}
 }
-
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-	.widget{
-		width: 100%;
-	}
+    .widget{
+        width: 100%;
+    }
+        .navbar-nav {
+        /*float: left!important;*/
+        /*margin: 7.5px -30px;*/
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        /*float: left!important;*/
+        /*margin: 7.5px -30px;*/
+        float: none!important;
+        /*padding-left: 15px;*/
+        width: 100%;
+    }
+    .navbar-nav>li {
+        float: none;
+        width: 100%;
+    }
+    .navbar-nav>li>a {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 15px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    .collapse, .navbar-collapse {
+        margin-left: -15px;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+    .logo {
+    margin-left: -15px!important;
+    }
+    .nav li {
+    border-bottom: 1px solid #16b9e8;
+    }
+    .nav li:last-child{
+    border-bottom: none;
+    }
 
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+
+    .task5 .row{
+        margin: 0;
+    }
+
+    .nav li {
+    border-bottom: 1px solid #16b9e8;
+    }
+    .nav li:last-child{
+    border-bottom: none;
+    }
+    .logo{
+        margin-left: 0!important;
+    }
 
 }
